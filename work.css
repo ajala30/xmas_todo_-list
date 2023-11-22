@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-family: sans-serif;
+}
+.container{
+  width: 100%;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+body{
+  background-image:linear-gradient( to right bottom, rgba(0, 0, 0, 0.287), rgba(0,0,0,0.099)), url(./images/neom-abjEGTj3HZY-unsplash.jpg);
+ background-position: top;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ clip-path: polygon(0 0, 100% 0, 100%  75vh,0 100%)
+}
+button{
+ 
+  color:#fff;
+  background-color: #0056b3;
+  font-size: 2rem;
+  padding: .8rem 3rem;
+ border-radius: 16px;
+ cursor: pointer;
+
+
+}
+h3{
+  font-size: 2.4rem;
+  color: rgba(0, 0, 0, 0.914);
+  text-shadow: 2px 4px #fff;
+  margin-bottom: 10px;
+
+}
+h2{
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.756);
+  text-shadow: 2px 4px #fff;
+  font-weight: 600;
+  text-align:center;
+
+}
+p{
+  color: #000000ea;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align:center;
+  justify-content: center;
+  margin-bottom:6px;
+ 
+}
+button:hover{
+ text-transform: uppercase;
+ background-color: #007bff;
+
+}
